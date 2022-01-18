@@ -1,0 +1,32 @@
+#nombre{
+    font-size: 40px;
+}
+.navTitulos{
+    height:50px;
+    overflow:hidden;
+}
+
+.navTitulo{
+    height:50px;
+    
+}
+
+.navTitulosMove{
+    height:100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50%);
+    }
+    50%{
+        transform: translateY(-100%);
+    }
+    75%{
+        transform: translateY(-150%);
+    }
+    100%{
+        transform: translateY(-200%);
+    }
+}
