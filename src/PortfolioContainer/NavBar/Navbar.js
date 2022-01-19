@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './../../Styles/NavBar.css';
 
 export default function Navbar() {
     return (
@@ -6,7 +7,7 @@ export default function Navbar() {
             <div class= "barraNavegacion">
                 <nav class="navbar navbar-expand-lg navbar-light pb-3">
                     <div class="container-fluid">
-                        <p class="navbar-brand w-50 text-center text-white" id="nombre"><span class="text-danger fs-3">{"<"}</span>Federico Lencina<span class="text-danger fs-3">{"/>"}</span></p>
+                        <p class="navbar-brand w-50 text-center text-white" id="nombre"><span class="text-danger">{"<"}</span>Federico Lencina<span class="text-danger fs-3">{"/>"}</span></p>
                         <button class="navbar-toggler btn-light border border-dark border-4 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>

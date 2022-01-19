@@ -7,17 +7,17 @@ export default function Hero() {
         <div id="hero">
             <div className="py-5 px-5 d-flex justify-content-center align-items-center">
                 <div className="bg-perfil">
-                    <div className="row my-5 py-5">
+                    <div className="row py-5">
                         <div className="col-12 d-flex justify-content-center">
                             <img src={require('../../Images/Perfil5.png')} alt="Perfil" className="imgPerfil img-fluid"></img>
                         </div>
-                        <div className ="col-12  d-flex justify-content-center py-4 my-4">
+                        <div className ="col-12  d-flex justify-content-center py-4">
                             <h2 className= "text-white nombre">
                                 <Typical
                                 steps= {[
-                                    'Hi! I am Federico Lencina',2000,
-                                    'Frontend Developer',2000,
-                                    'Backend Developer',2000   
+                                    'Hi! I am Federico Lencina',1000,
+                                    'Frontend Developer',1000,
+                                    'Backend Developer',1000   
                                 ]}
                                 loop ={Infinity}
                                 wrapper="p"
@@ -55,6 +55,11 @@ export default function Hero() {
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>
+                        </div>
+                        <div class="container d-flex justify-content-center py-4">
+                            <a className="fs-5" href="#about">
+                                <button id="btnAbout">About me</button>
+                            </a>
                         </div>
                     </div>
                 </div>

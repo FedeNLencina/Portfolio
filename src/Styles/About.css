@@ -1,0 +1,55 @@
+#about{
+    height:100vh;
+}
+
+.imgAbout{
+    
+    border-radius:30px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.contAbout{
+    position:relative;
+}
+
+.divAbout{
+    border: 2px solid rgb(231, 231, 231);
+    border-radius:30px;
+}
+
+.cartaBG{
+    width:90%;
+    border-radius:30px;
+    background-color: rgb(29, 29, 29);
+    position:absolute;
+    top: 10px;
+    left: -50px;
+    height:88%;
+
+}
+
+
+
+#descripcion{
+    font-size:20px;
+}
+
+
+@media (max-width:600px) {
+    .cartaBG{
+        top: 30px;
+        left: 30px;
+        width:60%;
+        height:70%;
+    }
+
+    #descripcion{
+        font-size:15px;
+    }
+
+    .divAbout h1{
+        text-align: center;
+    }
+}
