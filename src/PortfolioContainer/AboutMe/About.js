@@ -3,7 +3,9 @@ import '../../Styles/About.css';
 
 export default function About() {
     return (
-      <div id="about" className="container p-5">
+      <div id="about" >
+        <div className="container p-5">
+          
           <div className="row h-75" >
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center contAbout p-5">
               <div className="cartaBG"></div>
@@ -11,7 +13,7 @@ export default function About() {
                 src={require("../../Images/About.jpeg")}
                 alt="about"
                 className="imgAbout img-fluid"
-              ></img>
+                ></img>
             </div>
 
             <div className="container col-12 col-lg-6 col-sm-12 col-md-12 d-flex flex-column justify-content-center align-content-center h-100 mt-5 p-3 divAbout">
@@ -32,13 +34,14 @@ export default function About() {
                   className="btn btn-danger p-2 fs-5"
                   href="Cv/LencinaFedericoCV.pdf"
                   download
-                >
+                  >
                   Download CV
                 </a>
                 </div>
             </div>
           </div>
         
+        </div>
       </div>
     );
 }

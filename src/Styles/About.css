@@ -52,4 +52,13 @@
     .divAbout h1{
         text-align: center;
     }
+    #about{
+        height:100%;
+    }
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    #about{
+        height:100%;
+    }
 }
