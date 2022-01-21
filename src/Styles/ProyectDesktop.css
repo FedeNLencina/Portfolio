@@ -1,0 +1,24 @@
+.proyectContainer{
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0px 0px;
+    overflow:hidden;
+    margin: 20px 0px;
+    
+}
+
+.circleBar{
+    padding: 10px 0px;
+    background-color:rgb(243, 242, 242);
+}
+
+.circle{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 3px;
+}
+
+.imgProyect{
+    width:100%;
+}

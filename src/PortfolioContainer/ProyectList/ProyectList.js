@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../Styles/ProyectList.css';
-import Proyect from '../../PortfolioContainer/Proyect/Proyect.js';
+import ProyectDeploy from '../Proyect/ProyectDeploy.js';
+import ProyectDesktop from '../Proyect/ProyectDesktop.js';
 
 export default function Proyects() {
   return (
@@ -14,19 +15,32 @@ export default function Proyects() {
                     </div>
                     <div className="row ">
                         <div className="col-12 col-md-6 col-lg-6 proyectListContainer">
-                            <Proyect />
-                            <a href="https://fedenlencina.github.io/CarFitness/" target="_blank" rel="noreferrer" className="">
-                                <img src={require("../../Images/Carfitness.png")} alt="CarFitness"></img>
-                            </a>
+                            <ProyectDeploy
+                                link='https://fedenlencina.github.io/CarFitness/'
+                                src={require("../../Images/Carfitness.png")}
+                                alt='carfitness' 
+                            />
                         </div>
                         <div className="col-12 col-md-6 col-lg-6  proyectListContainer">
-                            <Proyect/>
+                            <ProyectDeploy 
+                                link='https://fedenlencina.github.io/Portfolio1/'
+                                src={require("../../Images/Portfolio.png")}
+                                alt='portfolio' 
+                            />  
                         </div>
                         <div className="col-12 col-md-6 col-lg-6 proyectListContainer">
-                            <Proyect/>
+                            <ProyectDeploy 
+                                link='https://fedenlencina.github.io/ReactApp/'
+                                src={require("../../Images/ReactApp.png")}
+                                alt='reactApp' 
+                            />  
                         </div>
                         <div className="col-12 col-md-6 col-lg-6  proyectListContainer">
-                            <Proyect/>
+                            <ProyectDeploy 
+                                link='https://fedenlencina.github.io/RecSublime/'
+                                src={require("../../Images/RecSublime.png")}
+                                alt='recSublime' 
+                            />  
                         </div>
                     </div>
                     <div className="text-center text-black my-3">
@@ -34,10 +48,14 @@ export default function Proyects() {
                     </div>
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-6 proyectListContainer">
-                            <Proyect/>
+                            <ProyectDesktop
+                                src={require("../../Images/TorneoFutbol.png")}
+                                alt='torneoFutbol'/>
                         </div>
                         <div className="col-12 col-md-6 col-lg-6  proyectListContainer">
-                            <Proyect/>
+                            <ProyectDesktop
+                                src={require("../../Images/LightsOut.png")}
+                                alt='lightsOut'/>
                         </div>
                     </div>
                 </div>
