@@ -1,30 +1,29 @@
-#skill{
-  
+#skills{
+  background-color: rgb(238, 236, 236);
 }
+
 .skillContainer{
-  border: 6px solid rgb(241, 237, 237);
-  border-radius:30px;
-  background-color:rgb(255, 251, 251);
-  box-shadow: 0px 1px 30px 12px rgba(0,0,0,0.78);
-  -webkit-box-shadow: 0px 1px 30px 12px rgba(0,0,0,0.78);
-  -moz-box-shadow: 0px 1px 30px 12px rgba(0,0,0,0.78);
-  
+  background-color:white;
+  border: 4px solid white;
+  box-shadow: 0px 12px 2px -2px rgba(0,0,0,0.76);
+  -webkit-box-shadow: 0px 12px 2px -2px rgba(0,0,0,0.76);
+  -moz-box-shadow: 0px 12px 2px -2px rgba(0,0,0,0.76);
 }
 
 .skillContainer p{
-  font-size:20px;
+  font-size:15px;
 }
 
-.tituloSkill{
-  width:25%;
-  margin-left: 37%;
-  padding: 20px;
-  border: 3px solid white;
-  border-radius: 30px;
+
+.iconoSkillContainer{
+  background-color: rgb(49, 48, 48);
+  border-radius:30px;
+  width:30%;
+  padding:10px;
 }
 
 .iconoSkill{
-  font-size:60px;
+  font-size:40px;
 }
 
 .iconosSkills i{

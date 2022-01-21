@@ -1,35 +1,34 @@
 #about{
-    height:100vh;
+    
 }
 
 .imgAbout{
-    
-    border-radius:30px;
-    position: relative;
-    overflow: hidden;
-    
+    filter: grayscale(0.8);
+    height:80%;
+}
+
+.contPrincipal{
+    height:100%;
+    width:100%;
+    padding-top:5%;
 }
 
 .contAbout{
-    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+.divImage{
+    margin: 50px 0px;
+   
+    
 }
 
 .divAbout{
-    border: 2px solid rgb(231, 231, 231);
-    border-radius:30px;
+    margin: 50px 0px;
+    width:100%;
+   
 }
-
-.cartaBG{
-    width:90%;
-    border-radius:30px;
-    background-color: rgb(29, 29, 29);
-    position:absolute;
-    top: 10px;
-    left: -50px;
-    height:88%;
-
-}
-
 
 
 #descripcion{
@@ -38,15 +37,8 @@
 
 
 @media (max-width:600px) {
-    .cartaBG{
-        top: 30px;
-        left: 30px;
-        width:60%;
-        height:70%;
-    }
-
     #descripcion{
-        font-size:15px;
+        font-size:12px;
     }
 
     .divAbout h1{
@@ -54,6 +46,10 @@
     }
     #about{
         height:100%;
+    }
+
+    .contAbout{
+        padding:0;
     }
 }
 

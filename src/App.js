@@ -3,7 +3,7 @@ import Navbar from './PortfolioContainer/NavBar/Navbar.js'
 import Hero from './PortfolioContainer/Hero/Hero.js';
 import About from './PortfolioContainer/AboutMe/About.js';
 import Skills from './PortfolioContainer/Skills/Skills.js';
-
+import ProyectList from './PortfolioContainer/ProyectList/ProyectList.js';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Hero/>
       <About/>
       <Skills/>
+      <ProyectList/>
     </>
     </div>
   );
