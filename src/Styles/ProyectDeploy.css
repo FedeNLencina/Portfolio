@@ -3,7 +3,7 @@
     border-radius: 10px 10px 0px 0px;
     overflow:hidden;
     margin: 20px 0px;
-    
+    height: 100%;
 }
 
 .circleBar{
@@ -21,6 +21,11 @@
 
 .imgProyect{
     width:100%;
+    transition: all 10s ease;
+}
+
+.imgProyect:hover{ 
+    transform: translateY(-100%);
 }
 
 .linkProyect{

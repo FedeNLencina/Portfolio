@@ -17,28 +17,28 @@ export default function Proyects() {
                         <div className="col-12 col-md-6 col-lg-6 proyectListContainer">
                             <ProyectDeploy
                                 link='https://fedenlencina.github.io/CarFitness/'
-                                src={require("../../Images/Carfitness.png")}
+                                src={require("../../Images/CarFitnessFull.png")}
                                 alt='carfitness' 
                             />
                         </div>
                         <div className="col-12 col-md-6 col-lg-6  proyectListContainer">
                             <ProyectDeploy 
                                 link='https://fedenlencina.github.io/Portfolio1/'
-                                src={require("../../Images/Portfolio.png")}
+                                src={require("../../Images/DevFedericoLencina.png")}
                                 alt='portfolio' 
                             />  
                         </div>
                         <div className="col-12 col-md-6 col-lg-6 proyectListContainer">
                             <ProyectDeploy 
                                 link='https://fedenlencina.github.io/ReactApp/'
-                                src={require("../../Images/ReactApp.png")}
+                                src={require("../../Images/ReactAppFull.png")}
                                 alt='reactApp' 
                             />  
                         </div>
                         <div className="col-12 col-md-6 col-lg-6  proyectListContainer">
                             <ProyectDeploy 
                                 link='https://fedenlencina.github.io/RecSublime/'
-                                src={require("../../Images/RecSublime.png")}
+                                src={require("../../Images/RecSublimeFull.png")}
                                 alt='recSublime' 
                             />  
                         </div>
