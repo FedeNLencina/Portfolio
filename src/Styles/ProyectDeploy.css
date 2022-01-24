@@ -9,6 +9,8 @@
 .circleBar{
     padding: 10px 0px;
     background-color:rgb(243, 242, 242);
+    position: sticky;
+    z-index: 2;
 }
 
 .circle{
@@ -25,7 +27,7 @@
 }
 
 .imgProyect:hover{ 
-    transform: translateY(-100%);
+    transform: translateY(-70%);
 }
 
 .linkProyect{

@@ -1,0 +1,16 @@
+#contact{
+    background-color:rgb(56, 55, 55);
+}
+
+.espacio{
+    height:20px;
+}
+
+input{
+    margin:5px 20px;
+    padding: 10px;
+    width: 50%;
+    background-color:transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}

@@ -4,6 +4,7 @@ import Hero from './PortfolioContainer/Hero/Hero.js';
 import About from './PortfolioContainer/AboutMe/About.js';
 import Skills from './PortfolioContainer/Skills/Skills.js';
 import ProyectList from './PortfolioContainer/ProyectList/ProyectList.js';
+import Contact from './PortfolioContainer/ConctactMe/Contact.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Skills/>
       <ProyectList/>
+      <Contact/>
     </>
     </div>
   );
