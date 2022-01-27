@@ -1,16 +1,84 @@
 #contact{
-    background-color:rgb(56, 55, 55);
+    position: relative;
+    background-color:rgb(173, 169, 169);
+}
+
+.box{
+    background-color:rgb(255, 255, 255);
+}
+
+.formContainer{
+    background-color:white;
+    box-shadow: 0px 21px 39px -8px rgba(0,0,0,0.89);
+    -webkit-box-shadow: 0px 21px 39px -8px rgba(0,0,0,0.89);
+    -moz-box-shadow: 0px 21px 39px -8px rgba(0,0,0,0.89);
 }
 
 .espacio{
     height:20px;
 }
 
-input{
-    margin:5px 20px;
-    padding: 10px;
-    width: 50%;
-    background-color:transparent;
+.form-control{
     border: none;
-    border-bottom: 1px solid white;
+    border: transparent;
+    border-bottom: 2px solid rgb(172, 171, 171);
+
+}
+
+.contactUnderline{
+    height:5px;
+    width:8%;
+    background-color:rgb(133, 132, 132);
+}
+
+.contactsTitle{
+    margin: 40px;
+    padding: 40px;
+}
+
+.contacts{
+    margin: 40px;
+    padding: 40px;
+}
+
+.getInTouchP{
+    font-size:25px;
+}
+
+
+.contact{
+    padding: 20px;
+    border-radius:50%;
+    background-color:rgb(90, 89, 89)
+
+}
+
+
+.contact i{
+    text-align: center;
+    font-size:50px;
+    color: white;
+}
+
+.contactP{
+    margin:20px;
+    font-size:25px;
+}
+
+#contact input{ 
+    margin: 26px 0px;
+}
+
+#contact textarea{ 
+    margin: 12px 0px;
+    resize: none;
+}
+
+#contact button{ 
+    color: black;
+    margin: 12px 0px;
+    padding: 10px;
+    width: 13%;
+    border: 2px solid rgb(151, 148, 148);
+    border-radius:10px;
 }

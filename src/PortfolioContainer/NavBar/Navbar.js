@@ -3,8 +3,8 @@ import './../../Styles/NavBar.css';
 
 export default function Navbar() {
     return (
-        <div className="bg-dark">
-            <div class= "barraNavegacion">
+        <div>
+            <div class= "barraNavegacion fixed-top bg-dark">
                 <nav class="navbar navbar-expand-lg navbar-light pb-3">
                     <div class="container-fluid">
                         <p class="navbar-brand w-50 text-center text-white" id="nombre"><span class="text-danger">{"<"}</span>Federico Lencina<span class="text-danger fs-3">{"/>"}</span></p>

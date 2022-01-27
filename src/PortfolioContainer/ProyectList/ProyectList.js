@@ -6,7 +6,7 @@ import ProyectDeploy from '../Proyect/ProyectDeploy.js';
 export default function Proyects() {
   return (
             <div id="proyects">
-                <div className="container">
+                <div className="container py-5">
                     <div className="proyectTitulo text-center text-black my-3">
                         <h2>Proyects</h2>
                     </div>
