@@ -42,7 +42,7 @@ export default function Contact() {
                                     </form>
                                 </div>
                             </div>
-                            <div className="col-12 col-sm-6 col-lg-6 mt-5 pt-5 ">
+                            <div className="col-12 col-sm-6 col-lg-6 pt-5 ">
                                 <div className="container">
                                     <div className="contactsTitle">
                                         <div className="text-dark">

@@ -6,9 +6,10 @@ import Skills from './PortfolioContainer/Skills/Skills.js';
 import ProyectList from './PortfolioContainer/ProyectList/ProyectList.js';
 import Contact from './PortfolioContainer/ConctactMe/Contact.js';
 
+
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
     <>
       <Navbar/>
       <Hero/>
