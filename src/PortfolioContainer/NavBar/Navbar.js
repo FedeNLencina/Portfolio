@@ -3,13 +3,10 @@ import './../../Styles/NavBar.css';
 
 export default function Navbar() {
     return (
-<<<<<<< HEAD
-        <div>
-            <div class= "barraNavegacion bg-dark">
-=======
+       <div class= "barraNavegacion bg-dark">
         <div className="bg-light">
             <div class= "barraNavegacion">
->>>>>>> da0c025a4a0338ef4d55bca80ffd72a71138e934
+
                 <nav class="navbar navbar-expand-lg navbar-light pb-3">
                     <div class="container-fluid">
                         <p class="navbar-brand w-50 text-center text-dark" id="nombre"><span class="text-danger">{"<"}</span>Federico Lencina<span class="text-danger fs-3">{"/>"}</span></p>
@@ -29,5 +26,6 @@ export default function Navbar() {
                 </nav>
             </div>
         </div>
+    </div>
     )
 }
