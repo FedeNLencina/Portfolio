@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.70289e12.css",
+    "main.js": "/static/js/main.eee3dc66.js",
+    "static/media/CarFitnessFull.png": "/static/media/CarFitnessFull.eb7df1a93684827a1f64.png",
+    "static/media/RecSublimeFull.png": "/static/media/RecSublimeFull.5435889e29df7d9348e2.png",
+    "static/media/DevFedericoLencina.png": "/static/media/DevFedericoLencina.93983853e11ee2039ede.png",
+    "static/media/ReactAppFull.png": "/static/media/ReactAppFull.823803408c38ad220a49.png",
+    "static/media/Montaña10.jpg": "/static/media/Montaña10.72dd9c0722bae36e915f.jpg",
+    "static/media/Perfil5.png": "/static/media/Perfil5.0d3baec56aad843e80df.png",
+    "static/media/About.jpeg": "/static/media/About.7b55b440fdccbf67c9ad.jpeg",
+    "index.html": "/index.html",
+    "main.70289e12.css.map": "/static/css/main.70289e12.css.map",
+    "main.eee3dc66.js.map": "/static/js/main.eee3dc66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70289e12.css",
+    "static/js/main.eee3dc66.js"
+  ]
+}
