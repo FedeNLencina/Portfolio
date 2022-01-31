@@ -5,17 +5,17 @@ export default function About() {
     return (
       <div id="about" >
         <div className="container contPrincipal">
-          <div className="d-flex justify-content-center contAbout" >
-            <div className="divImage d-flex justify-content-center">
+          <div className="row">
+            <div className="divImage col-12 col-md-6 col-lg-6 d-flex justify-content-center">
               <img
                 src={require("../../Images/About.jpeg")}
                 alt="about"
                 className="imgAbout img-fluid"
               ></img>
             </div>
-              <div className="divAbout p-5">
+              <div className="divAbout col-12 col-md-6 col-lg-6">
                 <h2 className="text-center my-2">Hi, I´m Federico Lencina</h2>
-                <h1 className="text-center my-2">About Me</h1>
+                <h2 className="text-center my-2">About Me</h2>
                 <p className="text-dark my-5" id="descripcion">
                     My name is Federico Lencina. I am 26 years old and i´m from
                     Buenos Aires, Argentina.I´m a web designer and currently

@@ -25,12 +25,12 @@ export default function Contact() {
             <div id="contact"> 
                     <div className="container py-5">
                         <div className="row">
-                            <div className="col-12 col-sm-6 col-lg-6 box p-5"> 
-                                <div className="text-dark">
+                            <div className="col-12 col-sm-6 col-lg-6 box"> 
+                                <div className="text-dark title">
                                         <h2>Contact Me</h2>
                                 </div>
-                                <div className="contactUnderline mb-5"></div>
-                                <div className="formContainer p-5 ">
+                                <div className="contactUnderline"></div>
+                                <div className="formContainer">
                                     <form ref={formRef}  onSubmit={handlerSubmit} className="d-flex flex-column justify-content-center ">
                                         <input type="text" placeholder="Name" name="user-name" className="form-control bg-transparent "></input>
                                         <input type="text" placeholder="Subject" name="user-subject" className="form-control bg-transparent"></input>
@@ -44,14 +44,14 @@ export default function Contact() {
                             </div>
                             <div className="col-12 col-sm-6 col-lg-6 mt-5 pt-5 ">
                                 <div className="container">
-                                    <div className="container contactsTitle">
+                                    <div className="contactsTitle">
                                         <div className="text-dark">
                                                 <h2>Get in touch</h2>
                                         </div>
-                                        <div className="contactUnderline "></div>
+                                        <div className="getTouchUnderline "></div>
                                         <p className="mb-5 getInTouchP">Always available to get in touch and bring my services. Feel free to contact me.</p>
                                         <div className="container">
-                                            <div className="d-flex justify-content-evenly my-3">
+                                            <div className="d-flex justify-content-evenly my-3 mediaContact">
                                                 <div className="contact w-25 text-center">
                                                     <a href="https://www.linkedin.com/in/federico-lencina/" target="blank">
                                                         <i className="fab fa-linkedin"></i>
@@ -61,7 +61,7 @@ export default function Contact() {
                                                     <p className="contactP">Linkedin</p>
                                                 </div>
                                             </div>
-                                            <div className="d-flex justify-content-evenly my-3 ">
+                                            <div className="d-flex justify-content-evenly my-3 mediaContact">
                                                 <div className="contact w-25 text-center">
                                                     <a href="https://wa.link/520qgd" target="blank">
                                                         <i class="fab fa-whatsapp"></i>
@@ -71,7 +71,7 @@ export default function Contact() {
                                                     <p className="contactP">Phone</p>
                                                 </div>
                                             </div>
-                                            <div className="d-flex justify-content-evenly my-3">
+                                            <div className="d-flex justify-content-evenly my-3 mediaContact">
                                                 <div className="contact w-25 text-center">
                                                     <a href="mailto:federiconahuellencina@gmail.com" target="blank">
                                                         <i className="fab fa-google"></i>

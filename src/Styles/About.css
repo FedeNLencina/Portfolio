@@ -26,7 +26,7 @@
 
 .divAbout{
     margin: 50px 0px;
-    width:100%;
+    
    
 }
 
@@ -38,18 +38,32 @@
 
 @media (max-width:600px) {
     #descripcion{
-        font-size:12px;
+        font-size:16px;
     }
 
-    .divAbout h1{
+    .divAbout h2{
+        font-size: 20px;
         text-align: center;
     }
+
+    .divAbout{
+        margin: 20px 0px;
+    }
+
     #about{
         height:100%;
     }
 
     .contAbout{
         padding:0;
+    }
+
+    .divImage{
+        margin: 0px 0px; 
+    }
+
+    .imgAbout{
+        height: 95%;
     }
 }
 

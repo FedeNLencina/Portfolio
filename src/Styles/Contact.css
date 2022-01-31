@@ -4,11 +4,15 @@
 }
 
 .box{
+    padding:60px;
     background-color:rgb(255, 255, 255);
 }
 
 .formContainer{
     background-color:white;
+    margin-top:30px;
+    padding: 50px;
+    border: 1px solid rgb(180, 180, 180);
     box-shadow: 0px 21px 39px -8px rgba(0,0,0,0.89);
     -webkit-box-shadow: 0px 21px 39px -8px rgba(0,0,0,0.89);
     -moz-box-shadow: 0px 21px 39px -8px rgba(0,0,0,0.89);
@@ -17,6 +21,8 @@
 .espacio{
     height:20px;
 }
+
+
 
 .form-control{
     border: none;
@@ -32,8 +38,8 @@
 }
 
 .contactsTitle{
-    margin: 40px;
-    padding: 40px;
+    padding: 70px 30px;
+    
 }
 
 .contacts{
@@ -41,14 +47,32 @@
     padding: 40px;
 }
 
+.getTouchUnderline{
+    height:5px;
+    width:8%;
+    margin-bottom: 20px;
+    background-color:rgb(133, 132, 132);
+
+}
+.mediaContact{
+    padding: 10px;
+    border: 1px solid rgb(146, 145, 145);
+    
+    border-radius: 20px;
+    box-shadow: 0px 12px 2px -2px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 0px 12px 2px -2px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px 12px 2px -2px rgba(0,0,0,0.76);
+}
+
 .getInTouchP{
-    font-size:25px;
+    font-size:20px;
 }
 
 
 .contact{
     padding: 20px;
-    border-radius:50%;
+    margin: 10px 0px;
+    border-radius:40%;
     background-color:rgb(90, 89, 89)
 
 }
@@ -56,7 +80,7 @@
 
 .contact i{
     text-align: center;
-    font-size:50px;
+    font-size:40px;
     color: white;
 }
 
@@ -81,4 +105,58 @@
     width: 13%;
     border: 2px solid rgb(151, 148, 148);
     border-radius:10px;
+}
+
+
+
+@media (max-width:600px){
+    .box{
+        margin: 20px 0px;
+        padding: 20px;
+        background-color:rgb(173, 169, 169);
+    }
+
+    .title{
+        padding-left: 30px;
+    }
+    .contactUnderline{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .contactsTitle{
+        margin:0px;
+        padding:20px 0px;
+    }
+
+    .getInTouchP{
+        font-size: 16px;
+    }
+
+    .mediaContact{
+        padding: 10px;
+        border-bottom:1px outset black;
+        border-radius: 20px;
+        box-shadow: 0px 12px 2px -2px rgba(0,0,0,0.76);
+        -webkit-box-shadow: 0px 12px 2px -2px rgba(0,0,0,0.76);
+        -moz-box-shadow: 0px 12px 2px -2px rgba(0,0,0,0.76);
+    }
+
+    .contact{
+        padding:0px;
+        padding-top:11px;
+        border-radius: 0px;
+    }
+
+    .contact i{
+        font-size: 30px;
+    }
+
+    .contactP{
+        font-size: 20px;
+    }
+
+    .formContainer{
+        padding: 20px;
+    }
 }

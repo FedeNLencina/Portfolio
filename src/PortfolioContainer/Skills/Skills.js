@@ -3,11 +3,11 @@ import '../../Styles/Skills.css';
 
 export default function Skills() {
   return (
-        <div id="skills" className="p-5">
+        <div id="skills" className="p-2">
             <div className= "container my-5">
-                <h1 className= " text-center tituloSkill">Skills</h1>
-                <div className= "row d-flex justify-content-center">
-                    <div className="col-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-content-center p-5 m-5 skillContainer"> 
+                <h1 className= "text-center tituloSkill">Skills</h1>
+                <div className= "row">
+                    <div className="col-12 col-md-3 col-lg-4 d-flex flex-column justify-content-center align-content-center skillContainer"> 
                         <div className="w-100 d-flex justify-content-center">
                             <div className="iconoSkillContainer text-center ">
                                 <i class="fas fa-cogs text-white iconoSkill"></i>
@@ -21,7 +21,7 @@ export default function Skills() {
                             <i class="fab fa-python"></i>
                         </div>
                     </div>
-                    <div className="col-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-content-center p-5 m-5 skillContainer"> 
+                    <div className="col-12 col-md-3 col-lg-4 d-flex flex-column justify-content-center align-content-center skillContainer"> 
                         <div className="w-100 d-flex justify-content-center ">
                             <div className="iconoSkillContainer text-center">
                                 <i class="fas fa-edit text-white iconoSkill"></i>
@@ -36,7 +36,7 @@ export default function Skills() {
                             <i class="fab fa-bootstrap"></i>
                         </div>
                     </div>
-                    <div className="col-12 col-md-3 col-lg-3 d-flex flex-column justify-content-center align-content-center p-5 m-5 skillContainer"> 
+                    <div className="col-12 col-md-3 col-lg-4 d-flex flex-column justify-content-center align-content-center skillContainer"> 
                         <div className=" w-100  d-flex justify-content-center">
                             <div className="iconoSkillContainer text-center">
                                 <i class="fas fa-database text-white  iconoSkill"></i>
