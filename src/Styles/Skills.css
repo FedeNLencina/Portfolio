@@ -1,5 +1,6 @@
 #skills{
   background-color: rgb(201, 199, 199);
+  padding: 100px 0px;
 }
 
 .tituloSkill{
@@ -41,6 +42,9 @@
 
 
 @media  (max-width:600px) {
+  #skills{
+    padding: 20px 0px;
+  }
   .iconoSkillContainer{
     width: 50%;
 
@@ -51,6 +55,7 @@
 
   .skillContainer{
     width: 100%;
+    margin: 20px 0px;
   }
 
   .skillContainer p{

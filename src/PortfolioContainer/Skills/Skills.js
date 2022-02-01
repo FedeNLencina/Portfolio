@@ -3,7 +3,7 @@ import '../../Styles/Skills.css';
 
 export default function Skills() {
   return (
-        <div id="skills" className="p-2">
+        <div id="skills">
             <div className= "container my-5">
                 <h1 className= "text-center tituloSkill">Skills</h1>
                 <div className= "row">

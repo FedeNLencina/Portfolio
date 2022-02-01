@@ -5,12 +5,13 @@
 .imgAbout{
     filter: grayscale(0.8);
     height:80%;
+    margin-top: 30px;
 }
 
 .contPrincipal{
     height:100%;
     width:100%;
-    padding-top:5%;
+    
 }
 
 .contAbout{
@@ -19,15 +20,11 @@
 }
 
 .divImage{
-    margin: 50px 0px;
-   
-    
+    padding-top: 60px;
 }
 
 .divAbout{
-    margin: 50px 0px;
-    
-   
+   padding-top: 200px;
 }
 
 
@@ -48,6 +45,7 @@
 
     .divAbout{
         margin: 20px 0px;
+        padding-top: 0px;
     }
 
     #about{
@@ -60,6 +58,7 @@
 
     .divImage{
         margin: 0px 0px; 
+        padding-top: 0px;
     }
 
     .imgAbout{
