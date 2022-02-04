@@ -47,12 +47,13 @@ export default function Contact() {
     return errors;
   };
 
-  const validateSend = (e) => {
+  const validateSend = (e, error) => {
     if (
       e.target.name.value !== "" &&
       e.target.email.value !== "" &&
       e.target.subject.value !== "" &&
-      e.target.message.value !== "" 
+      e.target.message.value !== "" &&
+      error.email!=="Email is required!"
     ){
       return true;
     }
@@ -65,8 +66,9 @@ export default function Contact() {
     setIsSubmit(true);
     setSendMessage(true);
     console.log(formErrors);
+    console.log(formErrors.email)
 
-    if (validateSend(e)) {
+    if (validateSend(e, formErrors)) {
       emailjs
         .sendForm(
           "service_xoxklpd",
