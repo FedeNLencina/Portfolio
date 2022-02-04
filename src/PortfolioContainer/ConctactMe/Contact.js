@@ -4,23 +4,21 @@ import "../../Styles/Contact.css";
 import { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
-
 export default function Contact() {
   const formRef = useRef();
   const initialValues = { username: "", subject: "", email: "", message: "" };
-  const [ formValues, setFormValues ] = useState(initialValues);
-  const [ formErrors, setFormErrors ] = useState({});
-  const [ isSubmit, setIsSubmit ] = useState(false);
-  const [ sendMessage, setSendMessage ] = useState(false);
-  
-  const closeMessageSend = () =>{
+  const [formValues, setFormValues] = useState(initialValues);
+  const [formErrors, setFormErrors] = useState({});
+  const [isSubmit, setIsSubmit] = useState(false);
+  const [sendMessage, setSendMessage] = useState(false);
+
+  const closeMessageSend = () => {
     setSendMessage(false);
-  }
+  };
 
   const handlerChange = (e) => {
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
-    
   };
 
   useEffect(() => {
@@ -28,7 +26,6 @@ export default function Contact() {
       console.log(formValues);
     }
   }, [formErrors, formValues, isSubmit]);
-
 
   const validate = (values) => {
     const errors = {};
@@ -50,38 +47,52 @@ export default function Contact() {
     return errors;
   };
 
+  const validateSend = (e) => {
+    if (
+      e.target.name.value !== "" &&
+      e.target.email.value !== "" &&
+      e.target.subject.value !== "" &&
+      e.target.message.value !== "" 
+    ){
+      return true;
+    }
+    return false;
+  };
+
   const handlerSubmit = (e) => {
     e.preventDefault();
     setFormErrors(validate(formValues));
     setIsSubmit(true);
     setSendMessage(true);
-    
-    if(e.target.name.value !== "" && e.target.email.value !== ""&& e.target.subject.value !== "" && e.target.message.value)
+    console.log(formErrors);
+
+    if (validateSend(e)) {
       emailjs
-      .sendForm(
-        "service_xoxklpd",
-        "template_jqz9op4",
-        formRef.current,
-        "user_uqQfdg8XpW3ZuyDWUlhcj"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setFormValues({
-            username:"",
-            subject:"",
-            email:"",
-            message:""
-          })
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-      console.log(Object.keys(formErrors))
-    
-    
-};
+        .sendForm(
+          "service_xoxklpd",
+          "template_jqz9op4",
+          formRef.current,
+          "user_uqQfdg8XpW3ZuyDWUlhcj"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            setFormValues({
+              username: "",
+              subject: "",
+              email: "",
+              message: "",
+            });
+          },
+          (error) => {
+            console.log("Failed",error.text);
+          }
+        );
+        console.log(formErrors);
+      console.log(formValues);
+      
+    }
+  };
 
   return (
     <div id="contact">
@@ -93,7 +104,7 @@ export default function Contact() {
             </div>
             <div className="contactUnderline"></div>
             <div className="formContainer">
-              {validate(formValues)===null}
+              {validate(formValues) === null}
               <form
                 ref={formRef}
                 onSubmit={handlerSubmit}
