@@ -47,13 +47,15 @@ export default function Contact() {
     return errors;
   };
 
-  const validateSend = (e) => {
+  const validateSend = (e,error) => {
     if (
       e.target.name.value !== "" &&
-      e.target.email.value !== "" &&
       e.target.subject.value !== "" &&
-      e.target.message.value !== "" 
-    ){
+      e.target.message.value !== "" &&
+      e.target.email.value !== "" &&
+      error !== "Email is required!"&&  
+      error !== "This is not a valid email format!"
+    ) {
       return true;
     }
     return false;
@@ -64,9 +66,9 @@ export default function Contact() {
     setFormErrors(validate(formValues));
     setIsSubmit(true);
     setSendMessage(true);
-    console.log(formErrors);
+    
 
-    if (validateSend(e)) {
+    if (validateSend(e,formErrors.email)) {
       emailjs
         .sendForm(
           "service_xoxklpd",
@@ -85,12 +87,12 @@ export default function Contact() {
             });
           },
           (error) => {
-            console.log("Failed",error.text);
+            console.log("Failed", error.text);
           }
         );
-        console.log(formErrors);
-      console.log(formValues);
+
       
+
     }
   };
 
