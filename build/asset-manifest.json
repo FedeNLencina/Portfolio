@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba6c6c97.css",
+    "main.css": "/static/css/main.6277b65f.css",
     "main.js": "/static/js/main.fb65a520.js",
     "static/media/CarFitnessFull.png": "/static/media/CarFitnessFull.eb7df1a93684827a1f64.png",
     "static/media/RecSublimeFull.png": "/static/media/RecSublimeFull.5435889e29df7d9348e2.png",
@@ -10,11 +10,11 @@
     "static/media/Perfil5.png": "/static/media/Perfil5.0d3baec56aad843e80df.png",
     "static/media/About.jpeg": "/static/media/About.7b55b440fdccbf67c9ad.jpeg",
     "index.html": "/index.html",
-    "main.ba6c6c97.css.map": "/static/css/main.ba6c6c97.css.map",
+    "main.6277b65f.css.map": "/static/css/main.6277b65f.css.map",
     "main.fb65a520.js.map": "/static/js/main.fb65a520.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba6c6c97.css",
+    "static/css/main.6277b65f.css",
     "static/js/main.fb65a520.js"
   ]
 }
