@@ -3,6 +3,7 @@ import { useState } from "react";
 import "../../Styles/Contact.css";
 import { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
+import AOS from "aos";
 
 export default function Contact() {
   const formRef = useRef();
@@ -100,7 +101,7 @@ export default function Contact() {
     <div id="contact">
       <div className="container py-5">
         <div className="row">
-          <div className="col-12 col-sm-6 col-lg-6 box">
+          <div className="col-12 col-sm-6 col-lg-6 box" data-aos="zoom-in">
             <div className="text-dark title">
               <h2>Contact Me</h2>
             </div>
@@ -154,7 +155,7 @@ export default function Contact() {
               </form>
             </div>
           </div>
-          <div className="col-12 col-sm-6 col-lg-6 pt-5 ">
+          <div className="col-12 col-sm-6 col-lg-6 pt-5 " data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
             <div className="container">
               <div className="contactsTitle">
                 <div className="text-dark">

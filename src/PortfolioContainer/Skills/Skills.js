@@ -1,9 +1,17 @@
 import React from 'react';
+import { useEffect } from 'react';
 import '../../Styles/Skills.css';
-
+import AOS from 'aos';
 export default function Skills() {
+    useEffect(()=>{
+        AOS.init({
+          easing: 'ease-in-out',
+          duration: 600
+        });
+      },[])
+
   return (
-        <div id="skills">
+        <div id="skills" data-aos="fade-right">
             <div className= "container my-5">
                 <h1 className= "text-center tituloSkill">Skills</h1>
                 <div className= "row">

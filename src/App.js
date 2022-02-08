@@ -5,6 +5,7 @@ import About from './PortfolioContainer/AboutMe/About.js';
 import Skills from './PortfolioContainer/Skills/Skills.js';
 import ProyectList from './PortfolioContainer/ProyectList/ProyectList.js';
 import Contact from './PortfolioContainer/ConctactMe/Contact.js';
+import NavbarInf from './PortfolioContainer/NavarInf/NavbarInf.js';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Skills/>
       <ProyectList/>
       <Contact/>
+      <NavbarInf/>
     </>
     </div>
   );
