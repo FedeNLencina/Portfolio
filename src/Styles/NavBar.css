@@ -1,9 +1,38 @@
 #nombre{
     font-size: 30px;
 }
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+    background: 
+      linear-gradient(to right, transparent,transparent),
+      linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+  }
 
+  .barraNavegacion{
+    background-image: url("../Images/Montaña10.jpg");
+    background-position: 50%;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 @media (max-width: 578px) {
     #nombre{
         font-size: 20px;
     }
+
+    .nav-link{
+      background: transparent;
+    }
+    .nav-link:hover{
+      transition: none;
+    }
+    
 }

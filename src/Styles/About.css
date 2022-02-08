@@ -1,7 +1,3 @@
-#about{
-    
-}
-
 .imgAbout{
     filter: grayscale(0.8);
     height:80%;
@@ -27,9 +23,14 @@
    padding-top: 200px;
 }
 
+.divAbout h2{
+    font-family: 'Poppins', sans-serif;
+}
+
 
 #descripcion{
     font-size:20px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 

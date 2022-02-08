@@ -3,6 +3,10 @@
     height: 500px;
 }
 
+#proyects h2{
+    font-size:40px;
+    font-family: 'Work Sans', sans-serif;
+}
 
 @media  (max-width:600px) {
     .proyectListContainer{

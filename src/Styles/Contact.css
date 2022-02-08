@@ -1,6 +1,6 @@
 #contact{
     position: relative;
-    background-color:rgb(173, 169, 169);
+    background-color:rgb(235, 235, 235);
 }
 
 .box{
@@ -73,13 +73,14 @@
     padding: 20px;
     margin: 10px 0px;
     border-radius:40%;
-
-    
-
     background-color:rgb(90, 89, 89)
 
 }
 
+.contact:hover{
+    background-color:rgb(47, 47, 47);
+
+}
 
 .contact i{
     text-align: center;
@@ -87,9 +88,15 @@
     color: white;
 }
 
+.contact i:hover{
+  transition-timing-function: ease-out;
+  transition-duration: 0.5s;
+  transform: scale(1.4);
+}
 .contactP{
     margin:20px;
     font-size:25px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #contact input{ 
@@ -110,7 +117,9 @@
     border-radius:10px;
 }
 
-
+.buttonSubmit:hover{
+    background-color:rgb(223, 222, 222);
+}
 
 @media (max-width:600px){
     .box{

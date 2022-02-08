@@ -150,12 +150,12 @@ export default function Contact() {
                 ></textarea>
                 <p className="text-danger">{formErrors.message}</p>
                 <div className="d-flex justify-content-center w-100">
-                  <button className="btn w-50">Send Message</button>
+                  <button className="btn w-50 buttonSubmit">Send Message</button>
                 </div>
               </form>
             </div>
           </div>
-          <div className="col-12 col-sm-6 col-lg-6 pt-5 " data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
+          <div className="col-12 col-sm-6 col-lg-6 pt-5 " data-aos="zoom-in" data-aos-offset="500" data-aos-duration="500">
             <div className="container">
               <div className="contactsTitle">
                 <div className="text-dark">
