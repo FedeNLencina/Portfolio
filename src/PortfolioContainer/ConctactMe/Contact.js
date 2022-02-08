@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../../Styles/Contact.css";
 import { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
-import AOS from "aos";
+import AOS from 'aos';
 
 export default function Contact() {
   const formRef = useRef();
